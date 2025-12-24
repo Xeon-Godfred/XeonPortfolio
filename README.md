@@ -43,3 +43,4 @@ Upcoming projects to be featured:
 
 ## 📌 Status
 🚧 This project is actively under development. Updates will be added regularly.
+<!-- profile link updated -->
