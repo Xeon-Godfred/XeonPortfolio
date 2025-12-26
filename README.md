@@ -1,46 +1,62 @@
-# XeonPortfolio
+# Xeon Portfolio
 
-## 👋 About Me
-Hi! I’m **Xeon Godfred**, an aspiring Frontend Developer passionate about building clean, user-friendly web interfaces using modern web technologies.
+Hi, I’m **Xeon Godfred Opoku**, an aspiring Front-End Developer.
 
-I’m currently focused on improving my skills through hands-on projects and real-world practice, with the goal of contributing to open-source projects and participating in global internship programs such as **Outreachy**.
+I am passionate about building clean, user-friendly, and accessible web interfaces using modern web technologies. I am currently improving my skills through hands-on projects and real-world practice, with a growing interest in open-source contributions and global internship programs such as Outreachy.
 
 ---
 
 ## 🛠️ Skills
-- HTML5
-- CSS3
-- JavaScript (ES6)
-- Responsive Web Design
-- Git & GitHub (basic)
+
+- HTML5  
+- CSS  
+- JavaScript (ES6)  
+- Responsive Web Design  
+- Git & GitHub  
 
 ---
 
-## 📂 Projects
-This repository is my personal portfolio website. It will showcase:
-- My frontend projects
-- My technical skills
-- My learning journey in web development
+## 📁 Projects
 
-Upcoming projects to be featured:
-- **XeonTaskMaster** – A JavaScript-based task management app
-- **XeonLandingPage** – A responsive landing page design
-- **Interactive UI Components** – Small frontend experiments
+This repository contains my **personal portfolio website**, which showcases:
+- My front-end projects  
+- My technical skills  
+- My learning journey in web development  
+
+### Featured Projects
+- **Xeon Portfolio** – Personal portfolio website  
+- **Xeon Calc** – A simple calculator project  
+- **Xeon Tasklists** – A task management web app  
+
+---
+
+## 🚀 Upcoming Projects
+
+- **Xeon Taskmaster** – A JavaScript-based task management application  
+- **Xeon Landing Page** – A responsive landing page design  
+- **Interactive UI Components** – Small front-end interaction projects  
 
 ---
 
 ## 🎯 Goals
-- Build practical and accessible web applications
-- Contribute to open-source communities
-- Grow as a frontend developer through mentorship and collaboration
+
+- Build practical and accessible web applications  
+- Contribute to the open-source community  
+- Grow as a front-end developer through mentorship and collaboration  
 
 ---
 
 ## 📬 Contact
-- GitHub: https://github.com/Xeon-Godfred
+
+- **GitHub:** https://github.com/Xeon-Godfred  
 
 ---
 
-## 📌 Status
-🚧 This project is actively under development. Updates will be added regularly.
-<!-- profile link updated -->
+## 👤 Author
+
+**Xeon Godfred Opoku**  
+GitHub: Xeon-Godfred
+
+## ⚡ Status
+
+This portfolio is **in progress**. I am continuously updating it as I learn new skills and complete projects.
