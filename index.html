@@ -1,128 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Xeon Godfred | Frontend Developer</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Xeon Portfolio</title>
+  <!-- Link to CSS file -->
+  <link rel="stylesheet" href="style.css">
   <style>
-  /* paste the CSS code here */
-</style>
-  <style>
+    /* Additional basic styling for portfolio */
     body {
+      font-family: Arial, sans-serif;
       margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-      line-height: 1.6;
-      background-color: #f4f6f8;
+      padding: 0;
+      background-color: #f4f4f4;
       color: #333;
     }
-
     header {
-      background-color: #1f2937;
-      color: #ffffff;
-      padding: 2rem 1rem;
       text-align: center;
+      padding: 50px 20px;
+      background-color: #4CAF50;
+      color: white;
     }
-
     header h1 {
-      margin-bottom: 0.5rem;
-    }
-
-    header p {
       margin: 0;
-      font-size: 1.1rem;
-      opacity: 0.9;
+      font-size: 2.5rem;
     }
-
-    main {
-      max-width: 900px;
-      margin: auto;
-      padding: 2rem 1rem;
+    header p {
+      margin-top: 10px;
+      font-size: 1.2rem;
     }
-
-    section {
-      margin-bottom: 2rem;
-      background: #ffffff;
-      padding: 1.5rem;
-      border-radius: 6px;
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
-    }
-
-    h2 {
-      margin-top: 0;
-      color: #1f2937;
-    }
-
-    ul {
-      padding-left: 1.2rem;
-    }
-
-    footer {
+    nav {
       text-align: center;
-      padding: 1.5rem;
-      background: #1f2937;
-      color: #ffffff;
-      font-size: 0.9rem;
+      margin: 20px 0;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #4CAF50;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #333;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 30px;
+      font-size: 2rem;
+      color: #333;
+    }
+    /* Project Cards */
+    .project-card {
+      background-color: #ffffff;
+      padding: 20px;
+      border-radius: 12px;
+      margin: 15px 0;
+      box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .project-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    }
+    .project-card h3 {
+      margin-top: 0;
+      color: #333;
+      font-size: 1.3rem;
+    }
+    .project-card p {
+      color: #555;
+      line-height: 1.5;
+      margin: 10px 0;
+      font-size: 1rem;
+    }
+    .project-card a {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 8px 14px;
+      background-color: #4CAF50;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+      transition: background-color 0.3s;
+    }
+    .project-card a:hover {
+      background-color: #45a049;
+    }
+    /* Contact Section */
+    #contact p {
+      text-align: center;
+      font-size: 1.1rem;
+    }
+    #contact a {
+      color: #4CAF50;
+      text-decoration: none;
+    }
+    #contact a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
 <body>
 
+  <!-- Header -->
   <header>
-    <h1>Xeon Godfred</h1>
-    <p>Frontend Developer | HTML • CSS • JavaScript</p>
+    <h1>Xeon Godfred Opoku</h1>
+    <p>Aspiring Frontend Developer | Creating Clean, User-Friendly Web Applications</p>
   </header>
 
-  <main>
-    <section>
-      <h2>About Me</h2>
-      <p>
-        I am an aspiring frontend developer passionate about building clean,
-        accessible, and user-friendly web interfaces. I enjoy learning by
-        building real projects and improving my skills through practice and
-        collaboration.
-      </p>
-    </section>
+  <!-- Navigation (optional) -->
+  <nav>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
 
-    <section>
-      <h2>Skills</h2>
-      <ul>
-        <li>HTML5</li>
-        <li>CSS3</li>
-        <li>JavaScript (ES6)</li>
-        <li>Responsive Web Design</li>
-        <li>Git & GitHub (basic)</li>
-      </ul>
-    </section>
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>My Projects</h2>
 
-    <section>
-      <h2>Projects</h2>
-      <p>
-        This portfolio will showcase my frontend projects as I continue learning
-        and building.
-      </p>
-      <ul>
-        <li>XeonPortfolio</li>
-        <li>XeonTaskMaster (coming soon)</li>
-        <li>XeonLandingPage (coming soon)</li>
-      </ul>
-    </section>
+    <div class="project-card">
+      <h3>Xeon Calc</h3>
+      <p>A fully functional calculator with +, -, *, /, %, √, and mobile-friendly design.</p>
+      <a href="https://github.com/Xeon-Godfred/Xeon-Calc" target="_blank">View on GitHub</a>
+    </div>
 
-    <section id="projects">
-  <h2>My Projects</h2>
+    <div class="project-card">
+      <h3>Xeon Tasklist</h3>
+      <p>A task management app with add, delete, and complete functionality. Responsive and professional design.</p>
+      <a href="https://github.com/Xeon-Godfred/Xeon-Tasklist" target="_blank">View on GitHub</a>
+    </div>
+  </section>
 
-  <div class="project-card">
-    <h3>Xeon Calc</h3>
-    <p>A fully functional calculator with +, -, *, /, %, √, and mobile-friendly design.</p>
-    <a href="https://github.com/Xeon-Godfred/Xeon-Calc" target="_blank">View on GitHub</a>
-  </div>
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:godfredopoku697@gmail.com">godfredopoku697@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/xeon-godfred-opoku" target="_blank">Xeon Godfred Opoku</a></p>
+    <p>GitHub: <a href="https://github.com/Xeon-Godfred" target="_blank">Xeon-Godfred</a></p>
+  </section>
 
-  <div class="project-card">
-    <h3>Xeon Tasklist</h3>
-    <p>A task management app with add, delete, and complete functionality. Responsive and professional design.</p>
-    <a href="https://github.com/Xeon-Godfred/Xeon-Tasklist" target="_blank">View on GitHub</a>
-  </div>
-</section>
-  </main>
-
-  <footer>
-    <p>© 2025 Xeon Godfred</p>
+</body>
+</html>
