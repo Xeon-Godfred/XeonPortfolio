@@ -1,43 +1,61 @@
-/* Portfolio Project Cards */
-.project-card {
-  background-color: #ffffff;           /* clean white background */
-  padding: 20px;                        /* enough spacing inside card */
-  border-radius: 12px;                  /* rounded corners */
-  margin: 15px 0;                        /* space between cards */
-  box-shadow: 0 6px 12px rgba(0,0,0,0.15); /* subtle shadow for depth */
-  transition: transform 0.3s, box-shadow 0.3s; /* smooth hover animation */
+/* Mobile first */
+body {
+  font-size: 16px;
 }
 
-.project-card:hover {
-  transform: translateY(-5px);          /* slight lift on hover */
-  box-shadow: 0 10px 20px rgba(0,0,0,0.2); /* stronger shadow on hover */
+header {
+  padding: 40px 15px;
 }
 
-.project-card h3 {
-  margin-top: 0;
-  color: #333333;                       /* dark title for readability */
-  font-size: 1.3rem;                     /* slightly larger title */
+header h1 {
+  font-size: 2rem;
 }
 
-.project-card p {
-  color: #555555;                        /* medium gray for description */
-  line-height: 1.5;
-  margin: 10px 0;
+header p {
   font-size: 1rem;
 }
 
-.project-card a {
-  display: inline-block;
-  margin-top: 10px;
-  padding: 8px 14px;
-  background-color: #4CAF50;            /* green button */
-  color: white;
-  text-decoration: none;
-  border-radius: 6px;
-  font-weight: bold;
-  transition: background-color 0.3s;
+nav a {
+  display: block;
+  margin: 8px 0;
+  font-size: 1rem;
 }
 
-.project-card a:hover {
-  background-color: #45a049;            /* darker green on hover */
+/* Project Cards */
+.project-card {
+  padding: 15px;
+}
+
+/* Contact Section */
+#contact p {
+  font-size: 1rem;
+  margin: 8px 0;
+}
+
+/* Responsive Grid for larger screens */
+@media screen and (min-width: 768px) {
+  nav a {
+    display: inline-block;
+    margin: 0 15px;
+  }
+  
+  .project-card {
+    display: inline-block;
+    width: 45%;
+    margin: 10px 2.5%;
+    vertical-align: top;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  header h1 {
+    font-size: 2.5rem;
+  }
+  header p {
+    font-size: 1.2rem;
+  }
+  .project-card {
+    width: 30%;
+    margin: 10px 1.66%;
+  }
 }
