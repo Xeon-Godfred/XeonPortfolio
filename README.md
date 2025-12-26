@@ -60,3 +60,4 @@ GitHub: Xeon-Godfred
 ## ⚡ Status
 
 This portfolio is **in progress**. I am continuously updating it as I learn new skills and complete projects.
+
